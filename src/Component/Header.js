@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, FormControl, Navbar, Nav, Form, Button } from "react-bootstrap";
-import logo from "./logo512.png";
+import logo from "../asserts/bulba.png";
 import {  BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import Home from '../pages/Home'
@@ -18,7 +18,7 @@ export default class Header extends Component {
                         <Navbar.Brand href="/">
                             <img
                                 src={logo}
-                                height="30"
+                                height="100"
                                 wight="30"
                                 className="d-inline-block align-top"
                                 alt='Logo'
